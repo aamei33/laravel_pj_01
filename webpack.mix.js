@@ -11,5 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
+//mix.js('resources/js/app.js', 'public/js')
+//    .sass('resources/sass/app.scss', 'public/css');
+
+//处理浏览器缓存  增加version().使得修改模板时，模板可以动态的加载样式代码
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css').version();
