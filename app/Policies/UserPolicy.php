@@ -31,4 +31,9 @@ class UserPolicy
 
         //我们并不需要检查 $currentUser 是不是 NULL。未登录用户，框架会自动为其 所有权限 返回 false
     }
+
+    public function destroy(User $currentUser, User $user){
+        return $currentUser->is_admin && $currentUser->id !== $user->id;
+    }
+
 }

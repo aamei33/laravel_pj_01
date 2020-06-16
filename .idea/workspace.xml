@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccbb727-5a0e-4b21-ba8e-cf87a514b668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/_user.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/UserPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/_user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_user.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,11 +141,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.2020_06_16_101625_add_is_admin_to_users_table.php">
+    <configuration name="2020_06_16_101625_add_is_admin_to_users_table.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lapj01/database/migrations/2020_06_16_101625_add_is_admin_to_users_table.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.2020_06_16_101625_add_is_admin_to_users_table.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -161,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592273423957</updated>
-      <workItem from="1592273438256" duration="19291000" />
+      <workItem from="1592273438256" duration="21948000" />
     </task>
     <servers />
   </component>
@@ -173,6 +177,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="313" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592274273766" />
+    <state width="1016" height="264" key="GridCell.Tab.0.bottom" timestamp="1592302829498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1016" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
+    <state width="1016" height="264" key="GridCell.Tab.0.center" timestamp="1592302829498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1016" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
+    <state width="1016" height="264" key="GridCell.Tab.0.left" timestamp="1592302829498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1016" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
+    <state width="1016" height="264" key="GridCell.Tab.0.right" timestamp="1592302829498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1016" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
     <state x="315" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1592273444172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
