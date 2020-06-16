@@ -18,4 +18,9 @@ class UsersController extends Controller
         return view('users.show',compact('user'));
         //compact() 函数创建一个包含变量名和它们的值的数组。
     }
+
+    public function store(User $user, Request $request){
+
+
+    }
 }
