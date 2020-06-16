@@ -8,6 +8,15 @@ use App\Models\User;
 use Auth;
 class SessionsController extends Controller
 {
+
+
+    public function __construct()
+    {
+        $this->middleware('guest', [
+            'only' => ['create']
+        ]);
+    }
+
     //
     public function create(){
         return view('Sessions.create');
@@ -34,7 +43,15 @@ class SessionsController extends Controller
         if(Auth::attempt($credentials, $request->has('remember'))){
             //登录成功后的相关操作
             session()->flash('success','欢迎回来！');
-            return redirect()->route('users.show',[Auth::user()]);
+
+           //redirect() 实例提供了一个 intended 方法，
+            //该方法可将页面重定向到上一次请求尝试访问的页面上，
+            //并接收一个默认跳转地址参数，当上一次请求记录为空时，跳转到默认地址上。
+
+            $fallback = route('users.show', Auth::user());
+            return redirect()->intended($fallback);
+
+
         }else{
             //登录错误的相关操作
             session()->flash('danger','很抱歉，您的邮箱和密码不匹配');

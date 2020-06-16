@@ -9,6 +9,22 @@ class UsersController extends Controller
 {
     //
 
+    public function __construct()
+    {
+        //路由中  除了show create store 其他的都需要登录
+        //相反的还有 only 白名单方法，将只过滤指定动作。
+        //我们提倡在控制器 Auth 中间件使用中，首选 except 方法，
+        //这样的话，当你新增一个控制器方法时，默认是安全的，此为最佳实践。
+        $this->middleware('auth',[
+            'except'=>['show','create','store']
+            ]
+
+        );
+        $this->middleware('guest', [
+            'only' => ['create']
+        ]);
+    }
+
     public function create(){
         return view('users.create');
     }
@@ -42,11 +58,14 @@ class UsersController extends Controller
     }
 
     public function edit(User $user){
+        //authorize 方法接收两个参数，第一个为授权策略的名称，第二个为进行授权验证的数据。
+        $this->authorize('update', $user);
         return view('users.edit',compact('user'));
 
     }
 
     public function update(User $user , Request $request){
+        $this->authorize('update', $user);
         $this->validate($request,[
             'name' =>'required| max:50',
              //密码允许为空
