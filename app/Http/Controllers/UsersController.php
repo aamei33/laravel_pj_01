@@ -16,7 +16,7 @@ class UsersController extends Controller
         //我们提倡在控制器 Auth 中间件使用中，首选 except 方法，
         //这样的话，当你新增一个控制器方法时，默认是安全的，此为最佳实践。
         $this->middleware('auth',[
-            'except'=>['show','create','store']
+            'except'=>['show','create','store','index']
             ]
 
         );
@@ -78,6 +78,13 @@ class UsersController extends Controller
         session()->flash('seuccess','个人资料更新成功！');
         return redirect()->route('users.show',$user->id);
 
+    }
+
+    public function index(){
+        //$users =  User::all();
+        //添加分页
+        $users = User::paginate(10);
+        return view('users.index',compact('users'));
     }
 
 
