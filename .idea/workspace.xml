@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eccbb727-5a0e-4b21-ba8e-cf87a514b668" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/UserPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/_user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_user.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592273423957</updated>
-      <workItem from="1592273438256" duration="21948000" />
+      <workItem from="1592273438256" duration="22840000" />
     </task>
     <servers />
   </component>
@@ -177,22 +176,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="313" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592274273766" />
-    <state width="1016" height="264" key="GridCell.Tab.0.bottom" timestamp="1592302829498">
+    <state width="1170" height="264" key="GridCell.Tab.0.bottom" timestamp="1592305425297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
-    <state width="1016" height="264" key="GridCell.Tab.0.center" timestamp="1592302829498">
+    <state width="1170" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425297" />
+    <state width="1170" height="264" key="GridCell.Tab.0.center" timestamp="1592305425297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
-    <state width="1016" height="264" key="GridCell.Tab.0.left" timestamp="1592302829498">
+    <state width="1170" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425297" />
+    <state width="1170" height="264" key="GridCell.Tab.0.left" timestamp="1592305425296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
-    <state width="1016" height="264" key="GridCell.Tab.0.right" timestamp="1592302829498">
+    <state width="1170" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425296" />
+    <state width="1170" height="264" key="GridCell.Tab.0.right" timestamp="1592305425297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592302829498" />
+    <state width="1170" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425297" />
     <state x="315" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1592273444172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
