@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccbb727-5a0e-4b21-ba8e-cf87a514b668" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/_user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Status.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,34 +167,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592273423957</updated>
-      <workItem from="1592273438256" duration="22840000" />
+      <workItem from="1592273438256" duration="24416000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="313" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592274273766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="313" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592274273766" />
-    <state width="1170" height="264" key="GridCell.Tab.0.bottom" timestamp="1592305425297">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1592307012786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1170" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425297" />
-    <state width="1170" height="264" key="GridCell.Tab.0.center" timestamp="1592305425297">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592307012786" />
+    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1592307012786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1170" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425297" />
-    <state width="1170" height="264" key="GridCell.Tab.0.left" timestamp="1592305425296">
+    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592307012786" />
+    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1592307012786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1170" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425296" />
-    <state width="1170" height="264" key="GridCell.Tab.0.right" timestamp="1592305425297">
+    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592307012786" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1592307012786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1170" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592305425297" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592307012786" />
     <state x="315" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1592273444172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,5 +218,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592273513212" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/factories/StatusFactory.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
