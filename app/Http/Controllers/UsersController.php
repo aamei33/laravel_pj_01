@@ -22,5 +22,18 @@ class UsersController extends Controller
     public function store(User $user, Request $request){
 
 
+        // $this->validate($request,[ key1=>value1,key2=>value2 ])
+
+        //required 不能为空  uqique:users 对users表来说 唯一，不能重复
+        //emial 邮箱验证 confirmd确认  max:min 最大最小
+        $this->validate($request,[
+            'name' => 'required | unique:users |max:50',
+            'email' => 'required | email | unique:users |max:255',
+            'password' =>'required | confirmed|min:6'
+        ]);
+        return;
+
+
+
     }
 }

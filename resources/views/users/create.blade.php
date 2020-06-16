@@ -7,7 +7,17 @@
                 <h5>注册</h5>
             </div>
             <div class="card-body">
+
+
                 <form method="POST" action="{{ route('users.store') }}">
+                    <!-- csrf_field()  为了防止跨站请求伪造的攻击
+                       转为html代码为
+
+                    <input type="hidden" name="_token" value="fhcxqT67dNowMoWsAHGGPJOAWJn8x5R5ctSwZrAq">
+
+                       -->
+                    {{ csrf_field() }}
+
                     <div class="form-group">
                         <label for="name">名称：</label>
                         <input type="text" name="name" class="form-control" value="{{ old('name') }}">
