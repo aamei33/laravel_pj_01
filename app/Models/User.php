@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Auth;
 
 class User extends Authenticatable
 {
@@ -51,4 +52,11 @@ class User extends Authenticatable
     public function statuses(){
         return $this->hasMany(Status::class);
     }
+
+
+    public function feed(){
+        return $this->statuses()
+            ->orderBy('created_at','desc');
+    }
+
 }
