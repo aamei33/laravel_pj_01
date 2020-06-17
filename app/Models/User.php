@@ -61,7 +61,7 @@ class User extends Authenticatable
 
 
     // 可以通过  $user->followers();来获取粉丝列表  例如查看user_id = 1 查看 follower_id列表 即第一个用户的粉丝
-    public function followers($user_ids){
+    public function followers(){
 
         return $this->belongsToMany(User::CLASS,'followers','user_id', 'follower_id');
     }
