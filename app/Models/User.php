@@ -55,7 +55,7 @@ class User extends Authenticatable
 
 
     public function feed(){
-    
+
 
         $user_ids = $this->followings->pluck('id')->toArray();
         array_push($user_ids, $this->id);

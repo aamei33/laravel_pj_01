@@ -80,7 +80,11 @@ return [
     |
     */
 
-    'locale' => 'en',
+
+    // liuayemi 20200617将语言包修改为zh-cn
+   // 'locale' => 'en',
+    'locale'=>'zh-CN',
+
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +97,8 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+   // 'fallback_locale' => 'en',
+    'fallback_locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -158,7 +163,12 @@ return [
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
         Illuminate\Session\SessionServiceProvider::class,
-        Illuminate\Translation\TranslationServiceProvider::class,
+
+        //liuyamei  配置语言包
+       // Illuminate\Translation\TranslationServiceProvider::class,
+        Overtrue\LaravelLang\TranslationServiceProvider::class,
+        // yamei 20200617
+
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
